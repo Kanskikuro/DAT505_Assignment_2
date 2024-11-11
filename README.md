@@ -34,7 +34,7 @@ To run the scripts, ensure you have **Python** and **Scapy** installed:
 pip install scapy
 ```
 
-Each script requires root privileges to execute correctly. Run the scripts with:
+Each script requires root privileges to execute correctly. Run the scripts with sudo:
 ```bash
 sudo python <script_name>.py
 ```
