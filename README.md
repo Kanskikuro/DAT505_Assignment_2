@@ -2,6 +2,10 @@
 
 This repository contains Python scripts that utilize Scapy to test and demonstrate techniques for bypassing Snort intrusion detection systems. The assignment explores common evasion methods by crafting network packets in ways that can potentially evade detection by standard Snort rules. Each script showcases a unique evasion technique, providing insights into network security and detection limitations.
 
+## Disclaimer
+
+This project is for educational purposes only and should only be used in a controlled environment. Unauthorized use of these techniques outside of approved environments may violate network policies or legal regulations
+
 ## Techniques Implemented
 
 1. **Packet Fragmentation**  
@@ -34,6 +38,3 @@ Each script requires root privileges to execute correctly. Run the scripts with:
 ```bash
 sudo python <script_name>.py
 ```
-## Disclaimer
-
-This project is for educational purposes only and should only be used in a controlled environment. Unauthorized use of these techniques outside of approved environments may violate network policies or legal regulations
