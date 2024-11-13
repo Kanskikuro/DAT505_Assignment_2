@@ -1,4 +1,4 @@
-# victim_script.py
+# victim
 from scapy.all import sniff, IP, ICMP
 
 def extract_covert_data(packet):
