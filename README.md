@@ -34,14 +34,14 @@ When reading the IPs, where the list of rules lies, the rules are named dos3.rul
 
 ## Usage
 
-To run the scripts, ensure you have **Python** and **Scapy** installed:
-```bash
-pip install scapy
-```
-
 To run the IDS, ensure that **Snort** is installed:
 ```bash
 sudo apt-get install snort
+```
+
+To run the scripts, ensure you have **Python** and **Scapy** installed:
+```bash
+pip install scapy
 ```
 
 Each script requires root privileges to execute correctly. Run the scripts with sudo:
