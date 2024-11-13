@@ -28,6 +28,10 @@ A list of scrips used for evasion:
 - **`icmp_tunneling_attack.py`** - Implements ICMP tunneling for covert data transmission, attacker side.
 - **`icmp_tunneling_victim.py`** - Implements ICMP tunneling for covert data transmission victime side.
 
+**snort.lua** is the snort config file for the IDS. The config file includes basic network setting (dos.rules and scan.rules), but also ICMP.rules for testing purposes to attempt to mitigate evasion. 
+When reading the IPs, where the list of rules lies, the rules are named dos3.rules, scan3.rules and icmp3.rules. This is beacause Snort3 is used, hence the config and rules files are written in lua. To add more rules to the IPs, rules that are written in snort2 (snort syntax) needs to be converted to snort3 (lua) with snort2lua.
+
+
 ## Usage
 
 To run the scripts, ensure you have **Python** and **Scapy** installed:
