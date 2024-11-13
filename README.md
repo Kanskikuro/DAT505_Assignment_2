@@ -39,6 +39,11 @@ To run the scripts, ensure you have **Python** and **Scapy** installed:
 pip install scapy
 ```
 
+To run the IDS, ensure that **Snort** is installed:
+```bash
+sudo apt-get install snort
+```
+
 Each script requires root privileges to execute correctly. Run the scripts with sudo:
 ```bash
 sudo python <script_name>.py
