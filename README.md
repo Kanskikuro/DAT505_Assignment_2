@@ -21,7 +21,7 @@ This project is for educational purposes only and should only be used in a contr
    Using ICMP packets as a covert channel, the code demonstrates how data can be hidden within network traffic that often goes unchecked by IDS systems.
 
 ## Contents
-
+A list of scrips used for evasion:
 - **`fragmentation.py`** - Demonstrates packet fragmentation techniques.
 - **`timing_evasion.py`** - Uses timing variations to evade detection.
 - **`payload_obfuscation.py`** - Obfuscates payloads within legitimate packet structures.
