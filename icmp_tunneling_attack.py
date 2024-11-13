@@ -1,4 +1,4 @@
-# attacker_script.py
+# attacker
 from scapy.all import IP, ICMP, send
 import time
 
