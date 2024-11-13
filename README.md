@@ -25,7 +25,8 @@ This project is for educational purposes only and should only be used in a contr
 - **`fragmentation.py`** - Demonstrates packet fragmentation techniques.
 - **`timing_evasion.py`** - Uses timing variations to evade detection.
 - **`payload_obfuscation.py`** - Obfuscates payloads within legitimate packet structures.
-- **`icmp_tunneling.py`** - Implements ICMP tunneling for covert data transmission.
+- **`icmp_tunneling_attack.py`** - Implements ICMP tunneling for covert data transmission, attacker side.
+- **`icmp_tunneling_victim.py`** - Implements ICMP tunneling for covert data transmission victime side.
 
 ## Usage
 
